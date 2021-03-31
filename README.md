@@ -26,7 +26,7 @@ Identify poses with `@tensorflow/tfjs`, `expo-camera`, and `expo-gl` (for native
 #### 4. change directories to the my-app directory and run:
 > `npm i @tensorflow-models/posenet`
 
-#### 5. clone this repository into a project folder:
+#### 5. clone this repository into a new and different folder:
 > `git clone https://github.com/jude253/posenet-react-native`
 
 #### 6. copy the files `ModelView.js` and `PredictionList.js` from `posenet-react-native/src` to `my-app/src` and overwrite the files in `my-app/src`
