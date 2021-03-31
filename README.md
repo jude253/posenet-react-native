@@ -23,7 +23,7 @@ Identify poses with `@tensorflow/tfjs`, `expo-camera`, and `expo-gl` (for native
 #### 3. check that the with-tfjs-camera model works:
 - Run `expo start`, open on a native device (simulator, emulator, and browser are not supported).
 
-#### 4. change directories to the my-app directory and run:
+#### 4. run this command:
 > `npm i @tensorflow-models/posenet`
 
 #### 5. clone this repository into a new and different folder:
@@ -34,7 +34,7 @@ Identify poses with `@tensorflow/tfjs`, `expo-camera`, and `expo-gl` (for native
 #### 7. change directories to `my-app`:
 >`cd my-app`
 
-#### 8. check that the with-tfjs-camera model works:
+#### 8. check that the posenet model works:
 - Run `expo start`, open on a native device (simulator, emulator, and browser are not supported).
 
 - You can swap out `@tensorflow-models/posenet` for another [TensorFlow model](https://github.com/tensorflow/tfjs-models) to achieve different results.
