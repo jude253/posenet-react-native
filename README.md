@@ -14,27 +14,27 @@ Identify poses with `@tensorflow/tfjs`, `expo-camera`, and `expo-gl` (for native
 
 ## 🚀 How to use
 
-1. run this command:
+#### 1. run this command:
 > `npx create-react-native-app my-app -t with-tfjs-camera`
 
-2. change directories to `my-app`:
+#### 2. change directories to `my-app`:
 >`cd my-app`
 
-3. check that the with-tfjs-camera model works:
+#### 3. check that the with-tfjs-camera model works:
 - Run `expo start`, open on a native device (simulator, emulator, and browser are not supported).
 
-4. change directories to the my-app directory and run:
+#### 4. change directories to the my-app directory and run:
 > `npm i @tensorflow-models/posenet`
 
-5. clone this repository into a project folder:
+#### 5. clone this repository into a project folder:
 > `git clone https://github.com/jude253/posenet-react-native`
 
-6. copy the files `ModelView.js` and `PredictionList.js` from `posenet-react-native/src` to `my-app/src` and overwrite the files in `my-app/src`
+#### 6. copy the files `ModelView.js` and `PredictionList.js` from `posenet-react-native/src` to `my-app/src` and overwrite the files in `my-app/src`
 
-7. change directories to `my-app`:
+#### 7. change directories to `my-app`:
 >`cd my-app`
 
-8. check that the with-tfjs-camera model works:
+#### 8. check that the with-tfjs-camera model works:
 - Run `expo start`, open on a native device (simulator, emulator, and browser are not supported).
 
 - You can swap out `@tensorflow-models/posenet` for another [TensorFlow model](https://github.com/tensorflow/tfjs-models) to achieve different results.
