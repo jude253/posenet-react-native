@@ -17,7 +17,7 @@ Identify poses with `@tensorflow/tfjs`, `expo-camera`, and `expo-gl` (for native
 #### 1. run this command:
 > `npx create-react-native-app my-app -t with-tfjs-camera`
 
-#### 2. change directories to `my-app`:
+#### 2. change directory to `my-app`:
 >`cd my-app`
 
 #### 3. check that the with-tfjs-camera model works:
