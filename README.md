@@ -7,16 +7,47 @@
   <img alt="Supports Expo Android" longdesc="Supports Expo Android" src="https://img.shields.io/badge/Android-4630EB.svg?style=flat-square&logo=ANDROID&labelColor=A4C639&logoColor=fff" />
 </p>
 
-Identify objects in real time using `@tensorflow/tfjs`, `expo-camera`, and `expo-gl` (for native acceleration).
+PoseNet model in realtime, modified from [with-tfjs-camera](https://github.com/expo/examples/tree/master/with-tfjs-camera)
+
+Identify poses with `@tensorflow/tfjs`, `expo-camera`, and `expo-gl` (for native acceleration).
+
 
 ## 🚀 How to use
 
+1. run this command:
 > `npx create-react-native-app my-app -t with-tfjs-camera`
 
+2. change directories to `my-app`:
+>`cd my-app`
+
+3. check that the with-tfjs-camera model works:
 - Run `expo start`, open on a native device (simulator, emulator, and browser are not supported).
-- You can swap out `@tensorflow-models/mobilenet` for another [TensorFlow model](https://github.com/tensorflow/models/blob/master/research/slim/nets/mobilenet_v1.md) to achieve different results.
+
+4. change directories to the my-app directory and run:
+> `npm i @tensorflow-models/posenet`
+
+5. clone this repository into a project folder:
+> `git clone https://github.com/jude253/posenet-react-native`
+
+6. copy the files `ModelView.js` and `PredictionList.js` from `posenet-react-native/src` to `my-app/src` and overwrite the files in `my-app/src`
+
+7. change directories to `my-app`:
+>`cd my-app`
+
+8. check that the with-tfjs-camera model works:
+- Run `expo start`, open on a native device (simulator, emulator, and browser are not supported).
+
+- You can swap out `@tensorflow-models/posenet` for another [TensorFlow model](https://github.com/tensorflow/tfjs-models) to achieve different results.
+
+
+
 
 ## 📝 Notes
+
+- the number at the bottom of the camera UI is the confince the posenetmodel has in its predictions
+- the prediction output of the model is logged to the console.
+- the predictions are generated in `ModelView.js`
+- `PredictionList.js` is where the predictions are turned into a UI element.
 
 - [TFJS Expo API reference](https://js.tensorflow.org/api_react_native/latest/#Media-Camera)
 - [`@tensorflow/tfjs-react-native` package](https://www.npmjs.com/package/@tensorflow/tfjs-react-native)
