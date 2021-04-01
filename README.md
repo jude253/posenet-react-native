@@ -1,4 +1,4 @@
-# TensorFlow Camera example
+# PoseNet Camera example
 
 <p>
   <!-- iOS -->
