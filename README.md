@@ -37,6 +37,12 @@ Identify poses with `@tensorflow/tfjs`, `expo-camera`, and `expo-gl` (for native
 #### 8. check that the posenet model works:
 - Run `expo start`, open on a native device (simulator, emulator, and browser are not supported).
 
+#### 9. stop server:
+- hit `control + c` in terminal
+
+#### 10. convert expo managed project to expo bare workflow:
+- hit `control + c` in terminal
+
 - You can swap out `@tensorflow-models/posenet` for another [TensorFlow model](https://github.com/tensorflow/tfjs-models) to achieve different results.
 
 
