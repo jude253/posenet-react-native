@@ -42,6 +42,7 @@ Identify poses with `@tensorflow/tfjs`, `expo-camera`, and `expo-gl` (for native
 
 #### 10. convert expo managed project to expo bare workflow:
 - in the directory `my-app` run command `expo eject` and enter in the expo-free app and package names
+- to run the app now, use `npm run web` or some variant of `npm run`
 
 - You can swap out `@tensorflow-models/posenet` for another [TensorFlow model](https://github.com/tensorflow/tfjs-models) to achieve different results.
 
